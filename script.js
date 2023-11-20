@@ -7,7 +7,7 @@ form.addEventListener("submit", function(event){
     event.preventDefault();
 
     const email = document.getElementById("email").value;
-    const senha =document.getElementById("senha").value;
+    const senha = document.getElementById("senha").value;
 
     if(email == emailCorreto && senha === senhaCorreta){
         alert("Login bem-sucedido");
